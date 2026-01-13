@@ -294,6 +294,29 @@ img {
   padding-left: 30px;
   transform: scale(1);
 }
+
+/* Profile Image Update */
+.home__profile-container {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 4px solid var(--first-color);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin: 0 auto;
+}
+
+.home__profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
 .home__data {
   grid-column: 1/3;
 }
